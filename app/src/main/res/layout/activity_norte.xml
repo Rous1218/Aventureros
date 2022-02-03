@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Norte">
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ESPECIALIDADES ASOCIACION NORTEAMERICANA"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.047" />
+
+  <Button
+      android:id="@+id/abc"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="abc"
+      android:text="los abc"
+      android:textColor="#F3F5F6"
+      android:textSize="10sp"
+      app:backgroundTint="#288AD8"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.056"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.289" />
+
+  <Button
+      android:id="@+id/colores"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="colores"
+      android:text="colores"
+      android:textSize="10sp"
+      app:backgroundTint="#009688"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.289" />
+
+  <Button
+      android:id="@+id/compartir"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="compartir"
+      android:text="compartir"
+      android:textSize="10sp"
+      app:backgroundTint="#FFC107"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.95"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.289" />
+
+  <Button
+      android:id="@+id/agua"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="agua"
+      android:text="cuerpos de agua"
+      android:textSize="8sp"
+      app:backgroundTint="#2196F3"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.053"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.527" />
+
+  <Button
+      android:id="@+id/jesus"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="jesus"
+      android:text="mi amigo jesus"
+      android:textSize="8sp"
+      app:backgroundTint="#834CE6"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.527" />
+
+  <Button
+      android:id="@+id/nino"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="nino"
+      android:text="el niño jesus"
+      android:textSize="10sp"
+      app:backgroundTint="#03A9F4"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.95"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.527" />
+
+  <Button
+      android:id="@+id/numeros"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="numeros"
+      android:text="numeros"
+      android:textSize="10sp"
+      app:backgroundTint="#6E50A3"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.053"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.742" />
+
+  <Button
+      android:id="@+id/bici"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="bici"
+      android:text="triciclos y bicicleta"
+      android:textColor="#F2F6F2"
+      android:textSize="8sp"
+      app:backgroundTint="#4CAF50"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.742" />
+
+  <Button
+      android:id="@+id/adra"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="adra"
+      android:text="adra"
+      android:textSize="10sp"
+      app:backgroundTint="#009688"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.946"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.742" />
+
+  <Button
+      android:id="@+id/regresar1"
+      android:layout_width="120dp"
+      android:layout_height="48dp"
+      android:text="Regresar"
+      app:backgroundTint="#9C27B0"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.918" />
+
+  <ImageView
+      android:id="@+id/imageView41"
+      android:layout_width="90dp"
+      android:layout_height="90dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.096"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.156"
+      app:srcCompat="@drawable/abc" />
+
+  <ImageView
+      android:id="@+id/imageView42"
+      android:layout_width="102dp"
+      android:layout_height="119dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.142"
+      app:srcCompat="@drawable/colores" />
+
+  <ImageView
+      android:id="@+id/imageView43"
+      android:layout_width="113dp"
+      android:layout_height="92dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.959"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.153"
+      app:srcCompat="@drawable/compartir" />
+
+  <ImageView
+      android:id="@+id/imageView44"
+      android:layout_width="84dp"
+      android:layout_height="105dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.094"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.407"
+      app:srcCompat="@drawable/agua" />
+
+  <ImageView
+      android:id="@+id/imageView45"
+      android:layout_width="106dp"
+      android:layout_height="122dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.491"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.403"
+      app:srcCompat="@drawable/jesus" />
+
+  <ImageView
+      android:id="@+id/imageView46"
+      android:layout_width="125dp"
+      android:layout_height="90dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.405"
+      app:srcCompat="@drawable/nino" />
+
+  <ImageView
+      android:id="@+id/imageView47"
+      android:layout_width="104dp"
+      android:layout_height="88dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.054"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.644"
+      app:srcCompat="@drawable/numeros" />
+
+  <ImageView
+      android:id="@+id/imageView48"
+      android:layout_width="93dp"
+      android:layout_height="115dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.519"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.636"
+      app:srcCompat="@drawable/bici" />
+
+  <ImageView
+      android:id="@+id/imageView49"
+      android:layout_width="108dp"
+      android:layout_height="105dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.96"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.642"
+      app:srcCompat="@drawable/adra" />
+</androidx.constraintlayout.widget.ConstraintLayout>

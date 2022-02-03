@@ -1,0 +1,124 @@
+<<<<<<< Original
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clubaventureros.clubaventureros">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_papis"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_papis_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Clubaventureros">
+
+        <activity
+            android:name=".Abejitas"
+            android:exported="true" />
+        <activity
+            android:name=".Yeartwo"
+            android:exported="true" />
+        <activity
+            android:name=".Uniforms"
+            android:exported="true" />
+        <activity
+            android:name=".Siguiente"
+            android:exported="true" />
+        <activity
+            android:name=".Rompecabezas"
+            android:exported="true" />
+        <activity
+            android:name=".rayosuno"
+            android:exported="true" />
+        <activity
+            android:name=".Prueba"
+            android:exported="true" />
+        <activity
+            android:name=".Plainings"
+            android:exported="true" />
+        <activity
+            android:name=".Norte"
+            android:exported="true" />
+        <activity
+            android:name=".Manuals"
+            android:exported="true" />
+        <activity
+            android:name=".Manu"
+            android:exported="true" />
+        <activity
+            android:name=".ManosUno"
+            android:exported="true" />
+        <activity
+            android:name=".ManosDos"
+            android:exported="true" />
+        <activity
+            android:name=".Koala"
+            android:exported="true" />
+        <activity
+            android:name=".Florida"
+            android:exported="true" />
+        <activity
+            android:name=".Especialidades"
+            android:exported="true" />
+        <activity
+            android:name=".Emblems"
+            android:exported="true" />
+        <activity
+            android:name=".Corderitos"
+            android:exported="true" />
+        <activity
+            android:name=".Constructoruno"
+            android:exported="true" />
+        <activity
+            android:name=".Constructordos"
+            android:exported="true" />
+        <activity
+            android:name=".casnorte"
+            android:exported="true" />
+        <activity
+            android:name=".Cascentral"
+            android:exported="true" />
+        <activity
+            android:name=".brochures"
+            android:exported="true" />
+        <activity
+            android:name=".Anosiete"
+            android:exported="true" />
+        <activity
+            android:name=".AnoSeis"
+            android:exported="true" />
+        <activity
+            android:name=".AnoCuatro"
+            android:exported="true" />
+        <activity
+            android:name=".Anocinco"
+            android:exported="true" />
+        <activity
+            android:name=""
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menuPrincipal"
+            android:exported="true" />
+    </application>
+
+</manifest>
+
+
+    <manifest xmlns:android ="http://schemas.android.com/apk/res/android"
+    >
+    <application>
+    <activity android:name ="com.clubaventureros.clubaventureros.Activity"
+    android:exported="true"
+    
+     />
+    </application>
+    </manifest>
+

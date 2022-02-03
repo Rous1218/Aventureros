@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Koala">
+
+  <TextView
+      android:id="@+id/textView18"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ESPECIALIDADES DIVISION SUDAMERICANA"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.056" />
+
+  <Button
+      android:id="@+id/amigui"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="amigui"
+      android:text="amigos"
+      android:textSize="10sp"
+      app:backgroundTint="#FFC107"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.099"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.316" />
+
+  <Button
+      android:id="@+id/cici"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="cici"
+      android:text="ciclismo II"
+      android:textSize="8sp"
+      app:backgroundTint="#619FD1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.524"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.316" />
+
+  <Button
+      android:id="@+id/higiene"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="higiene"
+      android:text="higiene"
+      android:textSize="10sp"
+      app:backgroundTint="#FFC107"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.946"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.316" />
+
+  <Button
+      android:id="@+id/hoja"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="hoja"
+      android:text="hoja"
+      android:textSize="10sp"
+      app:backgroundTint="#4CAF50"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.099"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.54" />
+
+  <Button
+      android:id="@+id/jardineritos"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="jardineritos"
+      android:text="jardineritos"
+      android:textSize="8sp"
+      app:backgroundTint="#8BC34A"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.524"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.54" />
+
+  <Button
+      android:id="@+id/panaderia"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="panaderitos"
+      android:text="panaderia"
+      android:textSize="8sp"
+      app:backgroundTint="#FFC107"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.946"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.54" />
+
+  <Button
+      android:id="@+id/koala"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="koala"
+      android:text="koala"
+      android:textSize="12sp"
+      app:backgroundTint="#9C8F8F"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.126"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.773" />
+
+  <Button
+      android:id="@+id/adras"
+      android:layout_width="110dp"
+      android:layout_height="48dp"
+      android:onClick="adras"
+      android:text="adra"
+      app:backgroundTint="#4CAF50"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.548"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.773" />
+
+  <Button
+      android:id="@+id/regresar7"
+      android:layout_width="120dp"
+      android:layout_height="48dp"
+      android:text="regresar"
+      app:backgroundTint="#9C27B0"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.508"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.935" />
+
+  <ImageView
+      android:id="@+id/imageView101"
+      android:layout_width="99dp"
+      android:layout_height="111dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.064"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.151"
+      app:srcCompat="@drawable/amigos" />
+
+  <ImageView
+      android:id="@+id/imageView102"
+      android:layout_width="100dp"
+      android:layout_height="102dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.503"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.15"
+      app:srcCompat="@drawable/ciclismoss" />
+
+  <ImageView
+      android:id="@+id/imageView103"
+      android:layout_width="94dp"
+      android:layout_height="101dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.896"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.158"
+      app:srcCompat="@drawable/higiene" />
+
+  <ImageView
+      android:id="@+id/imageView104"
+      android:layout_width="97dp"
+      android:layout_height="86dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.095"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.409"
+      app:srcCompat="@drawable/hoj" />
+
+  <ImageView
+      android:id="@+id/imageView105"
+      android:layout_width="111dp"
+      android:layout_height="109dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.403"
+      app:srcCompat="@drawable/jardineritos" />
+
+  <ImageView
+      android:id="@+id/imageView106"
+      android:layout_width="102dp"
+      android:layout_height="82dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.951"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.428"
+      app:srcCompat="@drawable/panaderia" />
+
+  <ImageView
+      android:id="@+id/imageView107"
+      android:layout_width="113dp"
+      android:layout_height="97dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.561"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.672"
+      app:srcCompat="@drawable/adras" />
+
+  <ImageView
+      android:id="@+id/imageView108"
+      android:layout_width="102dp"
+      android:layout_height="114dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.097"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.675"
+      app:srcCompat="@drawable/koala" />
+</androidx.constraintlayout.widget.ConstraintLayout>

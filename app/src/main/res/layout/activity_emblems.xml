@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emblems">
+
+  <Button
+      android:id="@+id/regresar18"
+      android:layout_width="120dp"
+      android:layout_height="48dp"
+      android:text="regresar"
+      app:backgroundTint="#9C27B0"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.193"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.959" />
+
+  <TextView
+      android:id="@+id/textView33"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ACTIVIDADES DEL CLUB DE AVENTUREROS"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.047" />
+
+  <ImageView
+      android:id="@+id/imageView219"
+      android:layout_width="168dp"
+      android:layout_height="181dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.934"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.783"
+      app:srcCompat="@drawable/zoo" />
+
+  <ImageView
+      android:id="@+id/imageView220"
+      android:layout_width="177dp"
+      android:layout_height="125dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.935"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.138"
+      app:srcCompat="@drawable/marchi" />
+
+  <ImageView
+      android:id="@+id/imageView221"
+      android:layout_width="176dp"
+      android:layout_height="126dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.068"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.138"
+      app:srcCompat="@drawable/perreras" />
+
+  <ImageView
+      android:id="@+id/imageView222"
+      android:layout_width="185dp"
+      android:layout_height="171dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.455"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.46"
+      app:srcCompat="@drawable/campamento" />
+
+  <ImageView
+      android:id="@+id/imageView223"
+      android:layout_width="185dp"
+      android:layout_height="159dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.07"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.774"
+      app:srcCompat="@drawable/salida" />
+
+  <TextView
+      android:id="@+id/textView34"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="visita de animales"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.145"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.334" />
+
+  <TextView
+      android:id="@+id/textView35"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Marchas"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.778"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.334" />
+
+  <TextView
+      android:id="@+id/textView36"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Campamentos"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.456"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.592" />
+
+  <TextView
+      android:id="@+id/textView37"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Juegos y caminatas"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.151"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.845" />
+
+  <TextView
+      android:id="@+id/textView38"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Visita al Zoológico"
+      android:textColor="#9C27B0"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.815"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.845" />
+
+  <Button
+      android:id="@+id/campament"
+      android:layout_width="120dp"
+      android:layout_height="48dp"
+      android:onClick="campaments"
+      android:text="guia de campamento"
+      android:textSize="8sp"
+      app:backgroundTint="#9C27B0"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.821"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.959" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
